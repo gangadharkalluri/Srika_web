@@ -1,0 +1,419 @@
+.header{
+  z-index: 10;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/thrash.img.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.img-class{
+  height: 400px;
+  width: fit-content;
+}
+
+.container-th {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background-image: url('../../assets/r4.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-left-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.top-right-text {
+  position: absolute;
+  top: 10px;
+  right: 5%;
+  color: white;
+  font-size: 18px;
+}
+
+.top-right-text a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.btn-success {
+  background-color: #48B16E;
+  border-radius: 30px;
+  color: white;
+  height: 50px;
+  border: 2px solid #48B16E;
+  width: 30%;
+}
+
+.conatct-btn {
+  background-color: transparent;
+  border-radius: 30px;
+  color: white;
+  height: 50px;
+  border: 2px solid white;
+  width: 30%;
+  margin-left: 10px;
+}
+
+.icon {
+  position: relative;
+  left: 35%;
+}
+
+.iconn {
+  position: relative;
+  left: 75%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.services h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  text-align: left;
+}
+
+.service h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  line-height: 1.5;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutUS {
+  background-color: #0D0D0D;
+  color: white;
+}
+
+.about-us {
+  padding: 50px;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.mission {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+.mission h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.revealOnScroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: transform ease-in-out 1s, opacity ease-in-out 1s;
+}
+
+.inView {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.services h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  text-align: left;
+}
+
+.service h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  line-height: 1.5;
+}
+
+.revealOnScroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: transform ease-in-out 1s, opacity ease-in-out 1s;
+}
+
+.inView {
+  opacity: 1;
+  transform: translateY(0);
+}
+.contact-us {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.contact-us h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.contact-info,
+.social-media {
+  width: 45%;
+}
+
+.contact-info p,
+.social-media a {
+  margin: 0 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.contact-info p span.material-icons,
+.social-media a span.material-icons {
+  color: #4caf50;
+  vertical-align: middle;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #333;
+}
+
+form {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #3e8e41;
+}
+
+/* fifth css */
+
+.background-image {
+  position: relative;
+  background: url("../../assets/recyclelogo.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.heading {
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+.text-bottom-left {
+  margin: 0;
+  color: white;
+}
+  .conatct-btnn {
+  background-color: transparent;
+  border-radius: 30px;
+  color: white;
+  height: 50px;
+  border: 2px solid white;
+  width: 15%;
+  align-self: flex-end;
+  margin-right: 10%;
+}
+
+.recycleimg {
+  width: 250px;
+  height: 300px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+
+}
+.contact-container {
+  display: flex;
+  justify-content: space-around; /* Adjusted for equal spacing */
+  align-items: start; /* Aligns items at the start of the container */
+  background-color: white;
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  gap: 20px; /* Adds space between the form and contact info */
+}
+
+.contact-info {
+  flex: 1; /* Takes 1 portion of the space */
+  background-color: #0D0D0D;
+  height: 300px;
+}
+
+.contact-form {
+  flex: 2; /* Takes 2 portions of the space, making it larger */
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between; /* Ensures inputs do not touch */
+}
+
+.form-group input, textarea {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  width: 200px;
+  margin-left: 550px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
