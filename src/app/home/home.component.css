@@ -117,6 +117,7 @@ body {
 .services h1 {
   font-size: 2em;
   margin-bottom: 20px;
+  color: #008A45;
 }
 
 .service-container {
@@ -130,7 +131,7 @@ body {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  width: 250px;
+  width: 217px;
   text-align: left;
 }
 
@@ -141,6 +142,7 @@ body {
 
 .service p {
   line-height: 1.5;
+  font-size: 11px;
 }
 
 body {
@@ -214,7 +216,7 @@ body {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  width: 250px;
+  width: 209px;
   text-align: left;
 }
 
@@ -358,7 +360,7 @@ form button:hover {
 }
 
 .recycleimg {
-  width: 250px;
+  width: 207px;
   height: 300px;
   gap: 0px;
   border-radius: 8px 0px 0px 0px;
@@ -383,7 +385,7 @@ form button:hover {
 }
 
 .contact-form {
-  flex: 2; /* Takes 2 portions of the space, making it larger */
+  flex: 1; /* Takes 2 portions of the space, making it larger */
 }
 
 .contact-form form {
@@ -416,4 +418,47 @@ button {
 
 button:hover {
   background-color: darkgreen;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%; /* Make input fields take full width */
+  box-sizing: border-box; /* Include padding and border in the element's width */
+  margin-bottom: 10px; /* Add some space below each field */
+}
+
+/* Styles for smaller screens */
+@media (max-width: 600px) {
+  .contact-form .form-group {
+    display: block; /* Stack the inputs vertically on small screens */
+  }
+
+  .contact-form .form-group input {
+    width: 100%; /* Full width for each input on small screens */
+  }
+  .contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  display: flex;
+  flex-wrap: wrap; 
+}
+.contact-form textarea {
+  width: 60%;
+}
+.contact-form button{
+  margin-left: 50px;
+}
+}
+
+/* Styles for larger screens */
+@media (min-width: 601px) {
+  .contact-form .form-group {
+    display: flex; /* Use flexbox to align inputs side by side */
+    justify-content: space-between;
+  }
+
+  .contact-form .form-group input {
+    width: 48%; /* Adjust input width to allow for margins */
+  }
 }

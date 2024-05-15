@@ -23,8 +23,12 @@ export class HomeComponent {
   // secondSlider:boolean = false;
   // thirdSlider :boolean = false;
   currentSlider = 1;
+  phoneNumber: string = '';  // Include country code, e.g., +12025550123
+  whatsAppUrl: string;
 
-  constructor(){}
+  constructor(){
+    this.whatsAppUrl = `https://wa.me/${this.phoneNumber}`;
+  }
 
   ngOnInit(){
     interval(5000).subscribe(() => {

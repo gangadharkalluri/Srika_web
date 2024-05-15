@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { register } from 'swiper/element/bundle';
+import { CarasaulComponent } from './carasaul/carasaul.component';
+import { FooterComponent } from './footer/footer.component';
 // register Swiper custom elements
 register();
 
@@ -14,7 +16,9 @@ register();
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    CarasaulComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,37 @@
+
+<div class="carousel-container">
+    <div class="top-left-text">
+        Srika Scrap Wala
+      </div>
+      <div class="top-right-text">
+         <a href="#">Home</a>
+         <a href="#">About</a>
+         <a href="#">Services</a>
+         <a href="#">Contact Us</a>
+      </div>
+    <img class="image-back" [src]="images[currentImageIndex].src" [alt]="images[currentImageIndex].alt">
+    <div class="text-on-image">
+      
+        <p class="caption-text">{{images[currentImageIndex].caption}} </p>
+        <p>{{images[currentImageIndex].description}}</p>
+        <div class="row">
+            <button class="conatct-btn">Discover our services</button>
+            <button class="btn-success">Contact Us</button>
+        </div>
+        <div class="navigation-dots">
+            <span *ngFor="let image of images; let i = index" 
+                  (click)="goToImage(i)" 
+                  [class.active]="i === currentImageIndex">
+              •
+            </span>
+          </div>
+    </div>
+ 
+
+    <a href="https://wa.me/9100788990" target="_blank" class="whatsapp-link">
+      <!-- <i class="fab fa-whatsapp"></i> -->
+      <img src="../../assets/whatsapp.png" class="whatapp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+  
