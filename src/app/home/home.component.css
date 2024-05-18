@@ -1,6 +1,9 @@
 .header{
   z-index: 10;
 }
+
+
+
 .container {
   position: relative;
   width: 100%;
@@ -74,6 +77,11 @@
   padding: 10px;
 }
 
+.icon{
+  height: 40px;
+  width: 42px;
+}
+
 .btn-success {
   background-color: #48B16E;
   border-radius: 30px;
@@ -110,7 +118,8 @@ body {
 }
 
 .services {
-  padding: 50px;
+  padding: 10px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -136,6 +145,7 @@ body {
 }
 
 .service h2 {
+  text-align: center;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
@@ -196,7 +206,7 @@ body {
 
 
 .services {
-  padding: 50px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -264,10 +274,18 @@ body {
   width: 45%;
 }
 
+.contact-info h2{
+  margin-left: 35px;
+  margin-top: 30px;
+  font-size: 25px;
+}
 .contact-info p,
 .social-media a {
+  margin-bottom: 25px !important;
+  margin-left: 30px !important;
+  margin-top: 35px !important;
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 13px;
   color: white;
 }
 
@@ -361,7 +379,7 @@ form button:hover {
 
 .recycleimg {
   width: 207px;
-  height: 300px;
+  height: 200px;
   gap: 0px;
   border-radius: 8px 0px 0px 0px;
   opacity: 0px;
@@ -409,7 +427,7 @@ form button:hover {
 button {
   padding: 10px 20px;
   background-color: green;
-  width: 200px;
+  width: 180px;
   margin-left: 550px;
   color: white;
   border: none;
@@ -450,6 +468,8 @@ button:hover {
   margin-left: 50px;
 }
 }
+
+
 
 /* Styles for larger screens */
 @media (min-width: 601px) {

@@ -1,7 +1,8 @@
 
 <div class="carousel-container">
     <div class="top-left-text">
-        Srika Scrap Wala
+        <!-- Srika Scrap Wala -->
+        <img class="logo" src="../../assets/logo.png" />
       </div>
       <div class="top-right-text">
          <a href="#">Home</a>
@@ -12,8 +13,9 @@
     <img class="image-back" [src]="images[currentImageIndex].src" [alt]="images[currentImageIndex].alt">
     <div class="text-on-image">
       
-        <p class="caption-text">{{images[currentImageIndex].caption}} </p>
-        <p>{{images[currentImageIndex].description}}</p>
+        <h1 class="caption-text">{{images[currentImageIndex].caption}} </h1>
+
+        <p class="caption-text-desc">{{images[currentImageIndex].description}}</p>
         <div class="row">
             <button class="conatct-btn col">Discover our services</button>
             <button class="btn-success col">Contact Us</button>

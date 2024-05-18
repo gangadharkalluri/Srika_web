@@ -59,9 +59,14 @@
   .social-icons i {
     font-size: 1.2em; /* Adjust size as needed */
   }
+
+  .logo{
+    width: 140px;
+    height: 70px;
+  }
   
   .footer-bottom {
-    background-color: #4caf50;
+    background-color: #017a3e;
     margin-left: -48px;
     margin-right: -47px;
     margin-bottom: -25px;
@@ -69,6 +74,8 @@
     margin-top: 20px;
     border-top: 1px solid #02312B;
     padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
   }
   
   .footer-bottom p {
