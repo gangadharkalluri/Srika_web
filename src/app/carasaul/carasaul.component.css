@@ -54,6 +54,7 @@
   }
   .caption-text{
     font-size: 48px;
+    line-height: normal;
   }
 
   .caption-text-desc{
@@ -184,6 +185,10 @@
     }
     .caption-text{
       font-size:20px;
+    }
+    .logo{
+      width: 82px !important;
+      height: 50px !important;
     }
   }
   

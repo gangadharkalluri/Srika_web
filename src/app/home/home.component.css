@@ -482,3 +482,17 @@ button:hover {
     width: 48%; /* Adjust input width to allow for margins */
   }
 }
+
+@media (max-width: 768px) {
+  .conatct-btnn {
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    height: 25px;
+    border: 2px solid white;
+    width: 35%;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 10px
+  }
+}
