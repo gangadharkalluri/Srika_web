@@ -88,9 +88,8 @@
   }
   
   .logo{
-    margin-top: 10px !important;
-    width: 140px !important;
-    height: 70px !important;
+    width: 150% !important;
+    height: 75px !important;
   }
   
 
@@ -147,7 +146,7 @@
     }
     .top-right-text {
       position: absolute;
-      right: 0%;
+      right: -8%;
       color: white;
       font-size: 10px;
     }
@@ -187,8 +186,12 @@
       font-size:20px;
     }
     .logo{
-      width: 82px !important;
-      height: 50px !important;
+      width: 110px !important;
+      height: 60px !important;
+    }
+    .carousel-container img {
+      height: 100vh;
+      width: 110%;
     }
   }
   
